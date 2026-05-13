@@ -1,0 +1,27 @@
+1. Start by downloading and cloning keras-flask-deploy-webapp
+2. Create a venv
+
+Unfortunately inside the venv, windows defender would flag dependencies -> had to install it outside venv
+![img.png](img.png)
+
+So...
+
+We switch to running it on docker, as docker is more reliable and consitent across deployments.
+
+Take the quickstart script 
+'docker run --rm -p 5000:5000 ghcr.io/imfing/keras-flask-deploy-webapp:latest'
+Pull the image and run the image -> it installs dependencies automaticallly :) (magic of docker)
+
+It spins up 2 containers:
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+
+Indicators for the Flask app:
+1. Many stars (green)
+2. Outdated dependencies, that fail to install and run the app (red)
+3. Proper documentation and README (green)
+
+Indicators for the Bread app:
+1. Low star count (red)
+2. Readable and clearly worded README (green)
+3. Relatively up to date dependencies (dependabot) (green)
