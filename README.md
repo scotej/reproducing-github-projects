@@ -25,3 +25,14 @@ Indicators for the Bread app:
 1. Low star count (red)
 2. Readable and clearly worded README (green)
 3. Relatively up to date dependencies (dependabot) (green)
+
+Interesting AI related project (bonus):
+https://github.com/MemTensor/MemOS
+Tried installing MemOS about ~1.5 months ago, but unfortunately it did not work...
+and instead it crashed my entire stack, and i had to forcefully remove it...
+
+It should theoretically offer better retrieval than the OC vector db system, but given that it is so complicated and convulted
+i decided it was not worth it to continue setting it up because vector db was doing alright for me.
+
+Im pretty sure its use case is primarly memory syncronosation across different users/sessions therefore making them allow to communicate and reatin memor
+across different oc instances
