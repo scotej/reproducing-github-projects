@@ -16,6 +16,8 @@ It spins up 2 containers:
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 <img width="606" height="884" alt="image" src="https://github.com/user-attachments/assets/839ff9ac-c055-4978-a181-76bb6ec57794" />
+<img width="1355" height="1000" alt="image" src="https://github.com/user-attachments/assets/11bb87b7-6690-4f65-a8d4-463a8f82c750" />
+
 
 Indicators for the Flask app:
 1. Many stars (green)
